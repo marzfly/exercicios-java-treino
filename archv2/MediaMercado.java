@@ -21,6 +21,7 @@ public class MediaMercado {
                 contMedia++;
             }
         }
+        System.out.println("O número de produtos com o valor acima da média é " + contMedia + ". Média: " + media);
         //valor de verificacao e indice
         System.out.println("Digite um valor e eu te mostrarei se há algum produto exatamente com o mesmo preço");
         valor = sc.nextDouble();
